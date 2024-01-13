@@ -27,7 +27,7 @@ jobs:
           cache: 'gradle'
 
       - name: Build OpenCord
-        run: ./gradlew app:assembleDebug
+        run: ./gradlew app:assembleRelease
 
       - name: Upload Discord APK
         uses: actions/upload-artifact@v2
